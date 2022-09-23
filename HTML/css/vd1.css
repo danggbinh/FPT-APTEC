@@ -1,0 +1,14 @@
+/*day la file style sheet mo ta dinh dang*/
+h2{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     color: lightcoral;
+     font-size: 2em;
+     text-shadow: 5px 3px 5px gray;
+}
+footer{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-align: center;
+     font-size: 1.2em;
+     color: antiquewhite;
+     background-color: darkred;
+}

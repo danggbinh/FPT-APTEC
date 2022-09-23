@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+     system("cls");
+     int x, i;
+     printf("\nInput an integer: ");
+     scanf("%d", &x);
+     printf("All the divisor of %d are: ", x);
+     for (i = 1; i <= x; i++)
+     {
+          if ((x % i) == 0)
+          {
+               if ((i % 2) == 1)
+               {
+                    printf("\n%d", i);
+               }
+          }
+     }
+
+     return 0;
+}
